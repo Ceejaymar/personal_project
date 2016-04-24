@@ -8,7 +8,7 @@ body{
 #header {
   height: 50px;
   width: auto;
-  background-color: white;
+  background-color:;
   margin: 0;
 
 }
@@ -16,6 +16,7 @@ body{
 h1{
   float: left;
   margin-left: 20px;
+  margin-top: 5px;
 }
 
 nav{
@@ -34,9 +35,23 @@ a {
 }
 
 a:hover {
-  text-decoration: underline;
+  /*text-decoration: underline;*/
+  color: #bfbfbf;
 }
 
 a:active {
-  background-color: #bfbfbf;
+  color: ;
+}
+
+#hero {
+  height:800px;
+  width: 100%;
+  background-color: blue;
+}
+
+#main_image {
+  height:800px;
+  background-image: url(desk1.jpeg);
+  background-repeat: no-repeat; 
+  background-size: cover;
 }
