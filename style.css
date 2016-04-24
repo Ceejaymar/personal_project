@@ -55,3 +55,28 @@ a:active {
   background-repeat: no-repeat; 
   background-size: cover;
 }
+
+#content {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+
+}
+
+p {
+  display: block;
+}
+
+.information {
+  display: inline-block;
+  width: 33%;
+  height: 400px;
+  border-right: 1px solid;
+  border-bottom: 1px solid;
+  margin: 0;
+  text-align: center
+}
+
+.one {
+
+}
