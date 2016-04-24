@@ -1,0 +1,42 @@
+
+
+body{
+  background-color: #efefef;
+  margin: 0;
+}
+
+#header {
+  height: 50px;
+  width: auto;
+  background-color: white;
+  margin: 0;
+
+}
+
+h1{
+  float: left;
+  margin-left: 20px;
+}
+
+nav{
+  float: right;
+}
+
+nav ul li{
+  display: inline;
+  margin: 0 20px 0 0;
+  color: #000;
+}
+
+a {
+  text-decoration: none;
+  color:#000;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  background-color: #bfbfbf;
+}
