@@ -57,17 +57,24 @@ a:active {
   background-image : url(desk1.jpeg);
   background-repeat: no-repeat; 
   background-size  : cover;
-  }
+  position: relative;
+}
 
-.welcome {
-  margin: 0;
+.hello {
+  height: 200px;
+  width: 300px;
+  background-image: url(hello2.png);
+  background-size: cover;
+  position: absolute;
+  right: 50px;
+  top: 100px;
 }
 
 .content {
   width  : 100%;
   margin : 0;
   padding: 0;
-  background-image: url("back-pattern.png");
+  background-image: url(back-pattern.png);
 }
 
 h2 {
