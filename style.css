@@ -185,7 +185,6 @@ margin-top: 40px;
   font-size : 2em;
 }
 
-
 .contactheader {
 }
 form {
@@ -218,6 +217,45 @@ button {
   border: 1px solid #rgba(0, 0, 0, .7);
   border-width : 1px 1px 3px;
   margin-bottom: px;
+}
+
+.follow {
+
+  margin: 40px 0 200px 0;
+
+}
+
+/*--------Responsive--------*/
+
+@media screen and (max-width: 480px) {
+  
+  .information {
+     display: block;
+     width: 100%;
+  }
+
+  #header {
+    height: 150px;
+  }
+
+  #title_header {
+    margin: 10px 0 0 110px;
+    /*display: block;*/
+  }
+
+  nav {
+    margin: -10px 0 0 60px;
+    float: left;
+  }
+
+  .contactheader {
+    font-size: .8em;
+  }
+  
+  form {
+    max-width: 320px;
+  }
+
 }
 
 
