@@ -2,6 +2,7 @@
 <html>
   <head>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- <script type="index.js"></script> -->
     <title>BY CJM</title>
   </head>
   <body class="content">
@@ -29,7 +30,7 @@
             <input type="email" id="mail" name="user_email">
             <label for="comment">Comment</label>
             <textarea id="comment" name="user-comment"> </textarea>
-            <button type="submit">Send Message</button>
+            <button onclick="submitButton()">Send Message</button>
           </fieldset>
         </form>
         <div class="follow">
@@ -40,5 +41,10 @@
     <div class="footer">
       <h3><a href="contact.html">Back to top</a></h3>
     </div> 
+    <script>
+      function submitButton() {
+    alert("Thank you for your message. Expect a reply shortly!");
+}
+    </script>
   </body>
 </html>

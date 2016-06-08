@@ -241,6 +241,7 @@ button {
   .information {
      display: block;
      width: 100%;
+     height: 450px;
   }
 
   #header {
@@ -272,6 +273,23 @@ button {
 
   .aboutContent {
     max-width: 380px;
+  }
+
+  .indexContent {
+    width: 400px;
+    margin: 0 auto;
+  }
+
+  #image_1 {
+    margin-bottom: 50px;
+  }
+
+  #image_2 {
+    margin-bottom: 50px;
+  }
+
+  #image_3 {
+    margin-bottom: 50px;
   }
 
 }
